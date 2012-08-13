@@ -1,0 +1,3 @@
+AWS request builder is a module to assist in the creation of requests to AWS, parsing those requests into an XML Etree and retrieving information from the requests. To build the requests, the users Amazon key Id and AWS secret access key must be coded into the ulrGet.py file. Paramters can be passed when building the amazon request. For data-mining, a timer has been implemented in the TreeGet class. This module was developed in 2009. AWS policies may have changed since then and timing functions and request protocol may need to be changed to confirm to current AWS policy.
+
+The urlGet.py module is used to construct requests to AWS while amazonRequest.py is used make requests, parse the XML returned and extract information.
